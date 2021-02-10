@@ -4,8 +4,6 @@
   vars:
     ansible_network_os: icx
     ansible_become: True
-    ansible_user: admin
-    ansible_password: password
     ansible_become_method: enable
     ansible_become_pass: password
     ansible_persistent_log_messages: True
