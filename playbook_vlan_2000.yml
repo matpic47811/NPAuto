@@ -1,7 +1,6 @@
 ---
 - hosts: icx
-  gather_facts: false
-  vars:
+    vars:
     ansible_network_os: icx
     ansible_become: True
     ansible_user: admin
