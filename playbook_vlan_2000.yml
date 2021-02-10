@@ -1,9 +1,10 @@
 ---
-- hosts: icx
-  gather_facts: true
+- hosts: all
+  connection: network_cli
+  gather_facts: no
   vars:
     ansible_network_os: icx
-    ansible_become: True
+    ansible_become: true
     ansible_user: admin
     ansible_password: password
     ansible_become_method: enable
