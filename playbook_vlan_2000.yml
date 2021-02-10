@@ -1,6 +1,6 @@
 ---
 - hosts: icx
-  gather_facts: yes
+  gather_facts: false
   vars:
     ansible_network_os: icx
     ansible_become: True
